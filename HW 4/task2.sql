@@ -20,7 +20,6 @@ CREATE TABLE petEvent (
 INSERT INTO petPet VALUES
     ("Fluffy", "Harold", "cat", "F", "1993-02-04", NULL),
     ("Claws", "Gwen", "cat", "M", "1994-03-17", NULL),
-    ("Buffy", "Harold", "dog", "F", "1989-05-13",NULL),
     ("Fang", "Benny", "dog", "M", "1990-08-27", NULL),
     ("Bowser", "Diane", "dog", "M", "1979-08-31", "1995-07-29"),
     ("Chirpy", "Gwen", "bird", "F", "1998-09-11", NULL),
@@ -34,8 +33,6 @@ INSERT INTO petEvent VALUES
     ("Fluffy","2020-10-15", "vet","antibiotics", "1"),
     ("Hammy","2020-10-15", "vet","antibiotics", "2"),
     ("Fluffy", "1995-05-15", "litter", "5 kittens, 3 female, 2 male", "3"),
-    ("Buffy", "1993-06-23", "litter", "5 puppies, 2 female, 3 male","4"),
-    ("Buffy", "1994-06-19", "litter", "3 puppies, 3 female","5"),
     ("Chirpy", "1999-03-21", "vet", "needed beak straightened","6"),
     ("Claws", "1997-08-03", "vet", "broken rib","7"),
     ("Slim", "1997-10-04", "vet", "broken tooth","8"),
