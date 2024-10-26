@@ -14,5 +14,5 @@ CREATE TABLE petEvent (
     remark VARCHAR(255),
     event_ID INT(30),
     PRIMARY KEY (event_ID),
-    FOREIGN KEY (petname) REFERENCES petPet (petname)
+    FOREIGN KEY (petname) REFERENCES petPet (petname) ON DELETE CASCADE
 );
