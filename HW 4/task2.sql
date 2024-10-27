@@ -18,7 +18,7 @@ SET death = "2020-09-01"
 WHERE petname = "Puffball"; 
 
 
-DELETE FROM petEvent WHERE petname = "Buffy" AND event_ID IN ("2","3")
+DELETE FROM petEvent WHERE petname = "Buffy" AND event_ID IN ("2","3");
 
 DELETE FROM petPet WHERE petname = "Buffy" AND owner = "Harold"; 
 
