@@ -12,7 +12,7 @@ CREATE TABLE petEvent (
     eventdate DATE, 
     eventtype VARCHAR(15),
     remark VARCHAR(255),
-    event_ID INT AUTO_INCREMENT,
+    event_ID IN AUTO_INCREMENT,
     PRIMARY KEY (event_ID),
     FOREIGN KEY (petname) REFERENCES petPet (petname) ON DELETE CASCADE
 );
