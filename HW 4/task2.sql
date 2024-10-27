@@ -20,7 +20,7 @@ WHERE petname = "Puffball";
 
 DELETE FROM petEvent WHERE petname = "Buffy" AND event_ID IN ("2","3");
 
-DELETE FROM petPet WHERE petname = "dog" AND owner = "Harold"; 
+DELETE FROM petPet WHERE species = "dog" AND owner = "Harold"; 
 
 
 
