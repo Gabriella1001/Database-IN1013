@@ -1,5 +1,5 @@
 INSERT INTO petPet VALUES
-    ("Hammy","Diane","Hampster","M","2010-10-30",NULL);
+    ("Hammy","Diane","hampster","M","2010-10-30",NULL);
 
 INSERT INTO petEvent (petname, eventdate, eventtype, remark) VALUES 
     ("Fluffy","2020-10-15","vet","antibiotics"),
