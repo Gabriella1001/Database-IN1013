@@ -24,7 +24,7 @@ WHERE cust_name = "%C%";
 
 SELECT first_name 
 FROM restStaff 
-WHERE headwaiter IS NOT NULL;
+WHERE headwaiter IS NULL;
 
 -- 5
 
