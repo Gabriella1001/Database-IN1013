@@ -7,22 +7,23 @@ WHERE cust_name = "Bob Crow";
 
 -- 2
 
-SELECT cust_name
+SELECT DISTINCT cust_name
 FROM restBill
-WHERE cust_name = "%Smith";
-ORDER BY cust_name DESC;
+WHERE cust_name LIKE "% Smith";
+ORDER BY cust_name 
+DESC;
 
 -- 3
 
 SELECT DISTINCT cust_name
 FROM restBill 
-WHERE cust_name = "%C%"; 
+WHERE cust_name LIKE "% C%"; 
 
 …
 
 -- 4
 
-SELECT first_name 
+SELECT first_name, surname
 FROM restStaff 
 WHERE headwaiter IS NULL;
 
@@ -30,13 +31,14 @@ WHERE headwaiter IS NULL;
 
 SELECT bill_date
 FROM restBill
-WHERE bill_date = "1602%"; //should this be in quotation marks?
+WHERE bill_date LIKE "1602%"; 
 
 -- 6
 
 SELECT DISTINCT bill_date
 FROM restBill 
-WHERE bill_date = "15%" ASC; 
-
+WHERE bill_date LIKE "15%" 
+ORDER BY bill_date 
+ASC; 
 
 …
