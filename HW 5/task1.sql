@@ -9,9 +9,8 @@ WHERE cust_name = "Bob Crow";
 
 SELECT DISTINCT cust_name
 FROM restBill
-WHERE cust_name LIKE "% Smith";
-ORDER BY cust_name 
-DESC;
+WHERE cust_name LIKE "% Smith"
+ORDER BY cust_name DESC;
 
 -- 3
 
@@ -38,7 +37,6 @@ WHERE bill_date LIKE "1602%";
 SELECT DISTINCT bill_date
 FROM restBill 
 WHERE bill_date LIKE "15%" 
-ORDER BY bill_date 
-ASC; 
+ORDER BY bill_date ASC; 
 
 …
