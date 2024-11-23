@@ -30,7 +30,4 @@ WHERE room_name LIKE "Blue";
 
 SELECT DISTINCT COUNT(table_no) 
 FROM restBill 
-WHERE waiter_no IN (004,002);
-
-
-…
+WHERE waiter_no IN (004,002); 

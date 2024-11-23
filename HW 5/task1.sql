@@ -38,5 +38,3 @@ SELECT DISTINCT bill_date
 FROM restBill 
 WHERE bill_date LIKE "15%" 
 ORDER BY bill_date ASC; 
-
-…
