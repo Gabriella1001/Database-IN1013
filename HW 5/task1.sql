@@ -18,7 +18,6 @@ SELECT DISTINCT cust_name
 FROM restBill 
 WHERE cust_name LIKE "% C%"; 
 
-…
 
 -- 4
 

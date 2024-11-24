@@ -18,7 +18,6 @@ SELECT AVG(bill_total)
 FROM restBill 
 WHERE table_no LIKE 002;
 
-…
 
 -- 4
 
