@@ -21,7 +21,7 @@ GROUP BY R1.room_name;
 
 --4 
 CREATE VIEW teamTotals AS 
-SELECT CONCAT(R1.first_name, " ", R1.surname) AS headwaiter_name, R2.total_sum 
+SELECT CONCAT(R1.first_name, " ", R1.surname) AS headwaiter_name, SUM(R2.total_sum) AS total_sum 
 FROM restStaff R1 
 JOIN restRoom_management R3 ON R1.staff_no = R3.headwaiter
 JOIN roomTotals R2 ON R3.room_name = R2.room_name
